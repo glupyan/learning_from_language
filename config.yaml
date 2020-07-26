@@ -1,0 +1,69 @@
+baseURL: "/"
+languageCode: en-us
+title: "Learning from language"
+theme: "ath-tufte-hugo_archivo"
+googleAnalytics: ""
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - \.Rhistory$
+  - \.yaml$
+  - _files$
+  - _cache$
+  - \.csl$
+  - \.Rproj.user/*
+permalinks:
+  post: "/:year/:month/:day/:slug/"
+buildFuture: true
+menu:
+  main:
+#    - name: Syllabus
+#      url: /syllabus/
+#      weight: 1
+    - name: Schedule
+      url: /schedule/
+      weight: 2
+#    - name: Resources
+#      url: /resources/
+#      weight: 3
+#    - name: Final Paper
+#      url: /finalpaper/
+#      weight: 4
+params:
+  subtitle: ""
+  author: Gary Lupyan
+  thumbnail: /noun_Graph_963326.png
+  instructor: 
+    name:  Prof. Gary Lupyan
+    email: lupyan@wisc.edu
+    url: "http://sapir.psych.wisc.edu"
+    signup: "<b> [signup sheet](https://docs.google.com/spreadsheets/d/1gvTX55rFdZFoDbV0nyXaefbQKTvlDbTdqUfQJNxl4BQ/edit#gid=0)</b>"
+    office: "<b> [ZOOM OFFICE](https://cmu.zoom.us/j/765835761) </b>"
+    oh: "W 3:30-4:30pm"
+  course:
+    number: Psych 711
+    semester: Fall 2020
+    days: "Fridays"
+    time: "9:00-11:00am"
+    location1: "Psych 634"
+    dates: "September - December 2020"
+    copyrightYear: "2020"
+    contactDetails: >-
+
+  university: 
+    name: University of Wisconsin-Madison
+    url: "https://www.cmu.edu"
+  school:
+    name: Department of Psychology
+    url: ""
+  description: ""
+  primaryColor: "#E50000"
+  secondaryColor: "#D08770"
+  credits: ""
+  logo:
+    url: /images/noun_Graph_963326.png
+    alt: Learning from Language
+  meta:
+    twitterSite: ""
+    twitterCreator: ""
+    fbAuthor: ""
