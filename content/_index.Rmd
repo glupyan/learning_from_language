@@ -10,7 +10,7 @@ The seminar will focus on the question of what kinds of knowledge are we learnin
 
 Answering these questions is important for at least three reasons: 
 
-1. There has been a tendency in cognitive science to study semantic knowledge by focusing predominantly on direct experiences from personal observations (i.e., assume the reality of the first thought experiment). Conversely, there has been a tendency in the machine-learning community to assume that meaning can come solely from experience with language (i.e., assume the reality of the second thought experiment). Reconciling these two perspectives can help us better understand understand how we *actually*know what we know.
+1. There has been a tendency in cognitive science to study semantic knowledge by focusing predominantly on direct experiences from personal observations (i.e., assume the reality of the first thought experiment). Conversely, there has been a tendency in the machine-learning community to assume that meaning can come solely from experience with language (i.e., assume the reality of the second thought experiment). Reconciling these two perspectives can help us better understand how we *actually* know what we know.
 
 2. To learn a language is to learn a set of skills. Among these skills is a mastery of a large set of categories that are picked out by the vocabulary of the language, e.g., learning the word "open" requires learning which set of events can be described by the word and which cannot. What are the cognitive consequences of requiring an entire speech community to learn the set of categories denoted by the core vocabulary of its language?
 
