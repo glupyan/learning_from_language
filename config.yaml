@@ -37,15 +37,15 @@ params:
     name:  Prof. Gary Lupyan
     email: lupyan@wisc.edu
     url: "http://sapir.psych.wisc.edu"
-    signup: "<b> [signup sheet](https://docs.google.com/spreadsheets/d/1gvTX55rFdZFoDbV0nyXaefbQKTvlDbTdqUfQJNxl4BQ/edit#gid=0)</b>"
-    office: "<b> [ZOOM OFFICE](https://cmu.zoom.us/j/765835761) </b>"
-    oh: "W 3:30-4:30pm"
+    signup: "<b> [signup sheet](https://docs.google.com/spreadsheets/d/1tl-uD_HUkfUAf5t1U0G7Sts5ayk8NxDuO6VohNn8NPU/edit?usp=sharing)</b>"
+    office: "<b> [ZOOM OFFICE](https://us02web.zoom.us/j/2522593015) </b>"
+    oh: "M 3:30-4:30pm"
   course:
     number: Psych 711
     semester: Fall 2020
-    days: "Fridays"
-    time: "9:00-11:00am"
-    location1: "Psych 634"
+    days: "Tuesdays"
+    time: "1:00pm-3:00pm"
+    location1: "Psych 338 (online as needed)"
     dates: "September - December 2020"
     copyrightYear: "2020"
     contactDetails: >-
