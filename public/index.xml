@@ -282,6 +282,17 @@ public/* is generated from scripts</description>
     </item>
     
     <item>
+      <title>Final Paper</title>
+      <link>/finalpaper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/finalpaper/</guid>
+      <description>You will write your final papers in groups of ~3. Each group has a choice to write a (1) Grant proposal (2) Review paper on a topic within the scope of this class (3) An empirical paper using online data collection, novel analyses of new data, corpus analysis or simulation.
+Workshopping papers We will have a writing workshop on 12/1.
+Final Presentations Each group will present their papers on the last day of class (~17 min presentation + 10 min Q&amp;amp;A)</description>
+    </item>
+    
+    <item>
       <title>Intro/Cumulative Science</title>
       <link>/reading/11a-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -318,30 +329,6 @@ public/* is generated from scripts</description>
     </item>
     
     <item>
-      <title>Meta-Analysis Final Paper</title>
-      <link>/finalpaper/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/finalpaper/</guid>
-      <description>You will write your final papers in groups of ~3. Each group has a choice to write a (1) Grant proposal (2) Review paper on a topic within the scope of this class (3) An empirical paper using online data collection, novel analyses of new data, corpus analysis or simulation.
-Workshopping papers We will have a writing workshop on 12/1.
-Final Project Presentations Each group will present their papers on the last day of class (~17 mins + 10 min Q&amp;amp;A)</description>
-    </item>
-    
-    <item>
-      <title>Resources</title>
-      <link>/resources/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/resources/</guid>
-      <description>Useful R references Base R cheatsheet
-R Markdown cheatsheet
-Dplyr cheatsheet
-Rstudio cheatsheet
-ggplot cheatsheet</description>
-    </item>
-    
-    <item>
       <title>Schedule</title>
       <link>/schedule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -349,16 +336,6 @@ ggplot cheatsheet</description>
       <guid>/schedule/</guid>
       <description>Here’s what I’ve got for you:
   Readings should be completed before each class  Reading response sheets are due by 8pm the day before class (submit through Canvas)  Slides and other class materials will be added after each class.      Reading Slides Assignment Notes   Week 1 [T, 9/8] Introduction. Human evolution and the cultural niche       Week 2 [T, 9/18] Varieties of semantic and conceptual knowledge and its connection to language       Week 3 [T, 9/22] The naming ceremony; word learning in WEIRD and non-WEIRD contexts       Week 4 [T, 9/29] Analogical and relational reasoning       Week 5 [T, 10/6] Education, literacy, language, and intelligence       Week 6 [T, 10/13] Learning from Generics       Week 7 [T, 10/20] Language and the reading of minds       Week 8 [T, 10/27] Distributional semantics 1: Core principles and controversies       Week 9 [T, 11/3] Distributional Semantics 2: Implications for learning       Week 10 [T, 11/10] Language and emotions    Special guest: Kristen Lindquist   Week 11 [T, 11/17] Perception 1: Top-down effects (of language) on perception    Special guest: Andy Clark   Week 12 [T, 11/24] Perception 2: Language and olfaction       Week 13 [T, 12/1] Writing workshop       Week 14 [T, 12/8] Final presentations        Schedule may change as the semester progresses.</description>
-    </item>
-    
-    <item>
-      <title>Syllabus</title>
-      <link>/syllabus/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/syllabus/</guid>
-      <description>Course Objectives The course has two related goals: (1) Provide a theoretical understanding of the scientific process and the role of cumulative science, and (2) introduce you to a set of modern tools for conducting science in this framework. Specifically, you’ll be able to:
- Understand the basic principles of experimental design and the cumulative scientific process Use R/RStudio and the tidyverse framework (Wickham, 2017) for conducting basic data analysis Present visualizations of data using Grammar of Graphics principles (Wickham, 2010) Implement reproducible workflows Understand the principles of “the new statistics” (i.</description>
     </item>
     
   </channel>

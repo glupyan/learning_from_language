@@ -1,5 +1,5 @@
 ---
-title: "Meta-Analysis Final Paper"
+title: "Final Paper"
 slug: finalpaper
 ---
 
@@ -12,8 +12,8 @@ You will write your final papers in groups of ~3. Each group has a choice to wri
 We will have a writing workshop on 12/1. 
 
 
-# Final Project Presentations
+# Final Presentations
 
-Each group will present their papers on the last day of class (~17 mins + 10 min Q&A)
+Each group will present their papers on the last day of class (~17 min presentation + 10 min Q&A)
 
 
