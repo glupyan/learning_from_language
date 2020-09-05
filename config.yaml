@@ -18,7 +18,7 @@ buildFuture: true
 menu:
   main:
     - name: Syllabus
-      url: /syllabus/learning_from_language_syllabus.pdf
+      url: https://github.com/glupyan/learning_from_language/blob/master/content/learning_from_language_syllabus.pdf
       weight: 1
     - name: Schedule
       url: /schedule/
