@@ -17,18 +17,18 @@ permalinks:
 buildFuture: true
 menu:
   main:
-#    - name: Syllabus
-#      url: /syllabus/
-#      weight: 1
+    - name: Syllabus
+      url: /syllabus/learning_from_language_syllabus.pdf
+      weight: 1
     - name: Schedule
       url: /schedule/
       weight: 2
 #    - name: Resources
 #      url: /resources/
 #      weight: 3
-#    - name: Final Paper
-#      url: /finalpaper/
-#      weight: 4
+    - name: Final Paper
+      url: /finalpaper/
+      weight: 3
 params:
   subtitle: ""
   author: Gary Lupyan
@@ -38,7 +38,7 @@ params:
     email: lupyan@wisc.edu
     url: "http://sapir.psych.wisc.edu"
     signup: "<b> [signup sheet](https://docs.google.com/spreadsheets/d/1tl-uD_HUkfUAf5t1U0G7Sts5ayk8NxDuO6VohNn8NPU/edit?usp=sharing)</b>"
-    office: "<b> [ZOOM OFFICE](https://us02web.zoom.us/j/2522593015) </b>"
+    office: "<b> [ZOOM OFFICE](https://uwmadison.zoom.us/j/8863152444) </b>"
     oh: "M 3:30-4:30pm"
   course:
     number: Psych 711

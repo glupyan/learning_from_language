@@ -2,93 +2,89 @@ lessons:
   - title: '<span class="fake-header-table"></span>'
     header: True
 
-  - title: "Defining the questions"
-    date: "Week 1 [F, 9/4]"
-    reading: ""
-    class: ""
-    notes: ""
-    hasclass: True
-
-  - title: ""
-    date: "Week 2 [F, 9/11]"
+  - title: "Introduction. Human evolution and the cultural niche"
+    date: "Week 1 [T, 9/8]"
     hasclass: True
     class: ""
-    reading: ""
+    reading: "https://drive.google.com/drive/u/2/folders/1rb6nIsMiiO3T_vvCx1bJjUNHmlSkGaNg"
 
-  - title: ""
-    date: "Week 3 [F, 9/18]"
+  - title: "Varieties of semantic and conceptual knowledge and its connection to language"
+    date: "Week 2 [T, 9/18]"
     hasclass: True
     class: ""
-    reading: ""
+    reading: "https://drive.google.com/drive/u/2/folders/1El1mbu1hxzEPd9VP4D010Cf-c_W6uJIZ"
 
-  - title: ""
-    date: "Week 4 [F, 9/18]"
+  - title: "The naming ceremony; word learning in WEIRD and non-WEIRD contexts"
+    date: "Week 3 [T, 9/22]"
     hasclass: True
     class: ""
-    reading: ""
+    reading: "https://drive.google.com/drive/u/2/folders/1E9gHxPWIAcChzKGdO1fH2U6rpQfi0hso"
 
-  - title: ""
-    date: "Week 5 [F, 9/18]"
+  - title: "Analogical and relational reasoning"
+    date: "Week 4 [T, 9/29]"
     hasclass: True
     class: ""
-    reading: ""
+    reading: "https://drive.google.com/drive/u/2/folders/1Kh0YdcVnG9xo25IEp-tD8nhKSB0nCw_r"
 
-  - title: ""
-    date: "Week 6 [F, 9/25]"
+  - title: "Education, literacy, language, and intelligence"
+    date: "Week 5 [T, 10/6]"
     hasclass: True
     class: ""
-    reading: ""
+    reading: "https://drive.google.com/drive/u/2/folders/1ynybJTN3uZ-Gg87a7izdpXtZ3tmTizqp"
 
-  - title: ""
-    date: "Week 7 [F, 10/2]"
+  - title: "Learning from Generics"
+    date: "Week 6 [T, 10/13]"
     hasclass: True
     class: ""
-    reading: ""
+    reading: "https://drive.google.com/drive/u/2/folders/1ycxVDhOvl3kpZ2leo1Sl-GNiGerYNpsW"
 
-  - title: ""
-    date: "Week 8 [F, 10/9]"
+  - title: "Language and the reading of minds"
+    date: "Week 7 [T, 10/20]"
     hasclass: True
     class: ""
-    reading: ""
+    reading: "https://drive.google.com/drive/u/2/folders/13joVxCGL_--pu6Bu66Y3fwIfkbHyV1cm"
 
-  - title: ""
-    date: "Week 9 [F, 10/16]"
+  - title: "Distributional semantics 1: Core principles and controversies"
+    date: "Week 8 [T, 10/27]"
     hasclass: True
     class: ""
-    reading: ""
+    reading: "https://drive.google.com/drive/u/2/folders/1-TzLhWOvNrs9YDzDi-Ayz_nWQyj3jylU"
 
-  - title: ""
-    date: "Week 10 [F, 10/23]"
+  - title: "Distributional Semantics 2: Implications for learning"
+    date: "Week 9 [T, 11/3]"
     hasclass: True
     class: ""
-    reading: ""
+    reading: "https://drive.google.com/drive/u/2/folders/1VU2g0sVB86F7lF3aXhZpC7SiJqxxGqM6"
 
-  - title: ""
-    date: "Week 11 [F, 10/30]"
+  - title: "Language and emotions"
+    date: "Week 10 [T, 11/10]"
     hasclass: True
     class: ""
-    reading: ""
+    reading: "https://drive.google.com/drive/u/2/folders/1EBy3hsmol5xTDP7fDIt3v74trCgiIzJW"
+    notes: "Special guest: Kristen Lindquist"
 
-  - title: ""
-    date: "Week 12 [F, 11/6]"
+  - title: "Perception 1: Top-down effects (of language) on perception"
+    date: "Week 11 [T, 11/17]"
     hasclass: True
     class: ""
-    reading: ""
+    reading: "https://drive.google.com/drive/u/2/folders/1caJrjde9_rI5vWoqeyDTa6SAy_Fccc3G"
+    notes: "Special guest: Andy Clark"
 
-  - title: ""
-    date: "Week 13 [F, 11/20]"
+  - title: "Perception 2: Language and olfaction"
+    date: "Week 12 [T, 11/24]"
     hasclass: True
     class: ""
-    reading: ""
+    reading: "https://drive.google.com/drive/u/2/folders/1fhaJUYoQLSabHr0rYiD8CmbryQR6ucYw"
 
-  - title: ""
-    date: "Week 14 [F, 11/27]"
+  - title: "Writing workshop"
+    date: "Week 13 [T, 12/1]"
     hasclass: False
     class: ""
-    reading: ""
+    hasassignment: True
+    reading: "https://drive.google.com/drive/u/2/folders/11rBcZZlPh9o4SeZhTpvzw_hfOO0NipVR"
 
-  - title: ""
-    date: "Week 15 [F, 12/4]"
+  - title: "Final presentations"
+    date: "Week 14 [T, 12/8]"
     hasclass: True
     class: ""
     hasassignment: True
