@@ -112,6 +112,8 @@ The order in which the readings are listed is the recommended reading order.
 
 (Please note the heavier reading load for this week)
 
+**Special guest** - Elika Bergelson
+
 * **Readings:** @waxman_dubbing_1999; @bergelson_nature_2017; @bergelson_what_2019; @cristia_child-directed_2019; @brown_childrearing_2018
 
 # `r advdate(tue, 4)`
@@ -184,7 +186,7 @@ The order in which the readings are listed is the recommended reading order.
 
 ### Final presentations
 
-### Group paper presentations [18 min presentations + 10 min Q&A].
+### Group paper presentations [17 min presentations + 10 min Q&A].
 
 
 

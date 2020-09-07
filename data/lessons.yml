@@ -19,6 +19,7 @@ lessons:
     hasclass: True
     class: ""
     reading: "https://drive.google.com/drive/u/2/folders/1E9gHxPWIAcChzKGdO1fH2U6rpQfi0hso"
+    notes: "Special guest: [Elika Bergelson](https://bergelsonlab.com/)"
 
   - title: "Analogical and relational reasoning"
     date: "Week 4 [T, 9/29]"
@@ -61,14 +62,14 @@ lessons:
     hasclass: True
     class: ""
     reading: "https://drive.google.com/drive/u/2/folders/1EBy3hsmol5xTDP7fDIt3v74trCgiIzJW"
-    notes: "Special guest: Kristen Lindquist"
+    notes: "Special guest: [Kristen Lindquist](http://www.kristenalindquist.com/)"
 
   - title: "Perception 1: Top-down effects (of language) on perception"
     date: "Week 11 [T, 11/17]"
     hasclass: True
     class: ""
     reading: "https://drive.google.com/drive/u/2/folders/1caJrjde9_rI5vWoqeyDTa6SAy_Fccc3G"
-    notes: "Special guest: Andy Clark"
+    notes: "Special guest: [Andy Clark](https://scholar.google.co.uk/citations?user=FYrnmlIAAAAJ&hl=en)"
 
   - title: "Perception 2: Language and olfaction"
     date: "Week 12 [T, 11/24]"
