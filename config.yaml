@@ -43,7 +43,7 @@ params:
   course:
     number: Psych 711
     semester: Spring 2022
-    days: "Thursdsays"
+    days: "Thursdays"
     time: "9:00am-11:30am"
     location1: "Brogden 634"
     dates: "January - May 2022"
