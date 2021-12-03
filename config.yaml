@@ -38,16 +38,16 @@ params:
     email: lupyan@wisc.edu
     url: "http://sapir.psych.wisc.edu"
     signup: "<b> [meeting signup](https://calendly.com/glupyan/psych711)</b>"
-    office: "<b> [ZOOM OFFICE](https://uwmadison.zoom.us/j/8863152444) </b>"
+    office: "<b> Brogden 419</b>"
     oh: "By Appt. Sign up below"
   course:
     number: Psych 711
-    semester: Fall 2020
-    days: "Tuesdays"
-    time: "1:00pm-3:00pm"
-    location1: "Psych 338 (online as needed)"
-    dates: "September - December 2020"
-    copyrightYear: "2020"
+    semester: Spring 2022
+    days: "Thursdsays"
+    time: "9:00am-11:30am"
+    location1: "Brogden 634"
+    dates: "January - May 2022"
+    copyrightYear: "2022"
     contactDetails: >-
 
   university: 
