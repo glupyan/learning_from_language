@@ -9,14 +9,14 @@ geometry: margin=1in
 
 title: "Learning from Language (Psych 711)"
 author: Gary Lupyan
-date: "Fall 2020"
+date: "Spring 2022"
 
 email: "lupyan@wisc.edu"
 web: "sapir.psych.wisc.edu"
 officehours: "By appt. Everyone should make use of it."
 office: "Psych 419"
-classroom: "Psych 338"
-classhours: "Tue 1:00pm-3:00pm"
+classroom: "Psych 624"
+classhours: "Thurs 9:00am-11:30am"
 documentclass   : "apa6"
 classoption    : "man"
 bibliography: learning_from_language.bib
@@ -30,14 +30,13 @@ header-includes:
 ```{r setup, include=FALSE}
 library(RefManageR)
 knitr::opts_chunk$set(cache=FALSE, dev='pdf')
-tue <- as.Date("2020-09-08")
-# fri <- as.Date("2016-01-08")
+thurs <- as.Date("2022-01-27")
 
 advdate <- function(obj, adv) {
- ttue <- obj + 7*(adv-1)
- ttue <- format(ttue, format="%m/%d")
+ tthurs <- obj + 7*(adv-1)
+ tthurs <- format(tthurs, format="%m/%d")
  zadv <- sprintf("%02d", adv)
- return(paste("Week ",zadv,sep='',", ", "Tue, ", ttue))
+ return(paste("Week ",zadv,sep='',", ", "Thurs, ", tthurs))
 }
 library(RefManageR)
 bib <- ReadBib("learning_from_language.bib",check=F)
@@ -53,7 +52,7 @@ assignment = 0
 
 # Course Description
 
-This graduate seminar will focus on the question of what kinds of knowledge are we learning from our exposure to natural language. Consider two thought experiments: (1) Imagine if everything humans knew, they learned from personally doing things and from observing others do things. (2) Now imagine if the only source of information was language: we can talk to others, read, but not experience things for ourselves. The actual case is that people learn from their own experiences, from observing others, and also from language in its various forms. This brings us to the question: What aspects of semantic knowledge, if any, do we learn exclusively from language? Which semantic domains are especially impacted by our experiences with language? What kind of information is especially well-represented in language, and what kind if absent? Do some languages “teach” their speakers things that other languages don’t?
+This graduate seminar will focus on the question of what types of semantic knowledge might we be learning from being exposed to natural language. Consider two thought experiments: (1) Imagine if everything humans knew, they learned from personally doing things and from observing others do things. (2) Now imagine if the only source of information was language: we can talk to others, read, but not experience things for ourselves. The actual case is that people learn from their own experiences, from observing others, and also from language in its various forms. This brings us to the question: What aspects of semantic knowledge, if any, do we learn exclusively from language? Which semantic domains are especially impacted by our experiences with language? What kind of information is especially well-represented in language, and what kind if absent? Do some languages “teach” their speakers things that other languages don’t?
 
 # Course Learning Outcomes
 
@@ -65,10 +64,10 @@ Students will...
 
 3. understand the basics of word embedding models and the core principles of natural language processing 
 
-4. design new experiment to test hypotheses about relationships between language and learning
+4. design an experiment to test hypotheses about relationships between language and semantic knowledge
 
 # Expectations
-Students are expected to read the 2-5 readings assigned for each class. I expect students to critically engage with each reading. Be on the lookout for ideas that challenge your intuitions, and that provoke you into thinking differently. To help you engage with the readings, each student will be randomly assigned to a group of 3-4 for each week. After reading the papers individually, the group should get together to discuss the readings and -- working together -- fill out a _Response Sheet_ (see [ Template](https://docs.google.com/document/d/1N3eQQd40xufCTC0irJMPP7barnsBlyDQFh5fp9LLJpM/edit?usp=sharing). Each group should upload the completed template to Canvas by 8pm the day before class. I will grade each response sheet on a 1-3 scale (\checkmark-, \checkmark, \checkmark+) and will use it to organize the discussion for the following class. Please note that some weeks have more/longer readings than other weeks. Plan your schedule accordingly. Final projects will also be completed in groups. Each group has the option of choosing to write a grant proposal, a review paper, or an empirical paper using online data collection, corpus analysis, or simulations.
+Students are expected to read the 2-5 readings assigned for each class. I expect students to critically engage with each reading. Be on the lookout for ideas that challenge your intuitions, and that provoke you into thinking differently. To help you engage with the readings, each student will be randomly assigned to a group of 2-3 for each week. After reading the papers individually, the group should get together to discuss the readings and -- working together -- fill out a _Response Sheet_ (see [ Template](https://docs.google.com/document/d/1N3eQQd40xufCTC0irJMPP7barnsBlyDQFh5fp9LLJpM/edit?usp=sharing). Each group should upload the completed template to Canvas by 9pm Tuesday. I will grade each response sheet on a 1-5 scale and will use your responses to organize the discussion for the following class. Please note that some weeks have more/longer readings than other weeks. Plan your schedule accordingly. Final projects will also be completed in groups. Each group has the option of choosing to write a review/synthesis paper, or an empirical paper. Empirical papers can take the form of an experimental paper in which you collect your own data (either in the lab or online)[^:1], a paper introducing  new computational model or a series of simulations, or a paper based on corpus analyses.
 
 
 # How credit hours are met by the course 
@@ -77,118 +76,118 @@ Students are expected to read the 2-5 readings assigned for each class. I expect
 - 28	hrs	class-time
 -	50	hrs	reading 
 -	10	hrs	weekly assignments
--	30	hrs	final assignment	
+-	30	hrs	final project	
  = 118	hrs	total
 
 
 ## Grading Policy
 
-- **40%** Attendance / in-class participation
+- **35%** Attendance / in-class participation
 - **25%** Reading responses
-- **35%** Final assignment
+- **10%** Final project presentation
+- **30%** Final project paper
 
-# Class Schedule[^:1]
+# Class Schedule[^:2]
 
 The order in which the readings are listed is the recommended reading order.
 
 
-[^:1]: As this is the first time this class is being offered, the schedule is subject to being revised.
+[^:1]: I may be able to add you to one of my IRB protocols so you wouldn't need to write your own.
+[^:2]: Subject to revision
 
-# `r advdate(tue, 1)`
+# `r advdate(thurs, 1)`
 
 ### Introduction. Human evolution and the cultural niche
 
-* **Readings:** [@pagel_cultural_2004; @boyd_cultural_2011]
+* **Readings:** @pagel_cultural_2004; @boyd_cultural_2011
 
-# `r advdate(tue, 2)`
+# `r advdate(thurs, 2)`
 
-### Varieties of semantic and conceptual knowledge and its connection to language
+### Cultural learning, conceptual and semantic knowledge
 
-* **Readings:** @yee_semantic_2018; @bedny_insights_2012; @levinson_outer_1997; @lupyan_how_2016
+* **Readings:** @legare_development_2019; @yee_semantic_2018; @levinson_outer_1997
 
-# `r advdate(tue, 3)`
+# `r advdate(thurs, 3)`
 
-### The naming ceremony; word learning in WEIRD and non-WEIRD contexts
+### Language of thought
 
-(Please note the heavier reading load for this week)
+**Special guest** - Hayley Clatterbuck
 
-**Special guest** - Elika Bergelson
+* **Readings:** @bermudez_thinking_2003 Chapt. 2; @gomila_wherein_2012; @lupyan_centrality_2016
 
-* **Readings:** @waxman_dubbing_1999; @bergelson_nature_2017; @bergelson_what_2019; @cristia_child-directed_2019; @brown_childrearing_2018
+# `r advdate(thurs, 4)`
 
-# `r advdate(tue, 4)`
+### No class
 
-### Analogical and relational reasoning
+* **See assignment on Canvas**
+
+# `r advdate(thurs, 5)` 
+
+### Language and relational reasoning
 
 * **Readings:** @hofstadter_analogy_2001; @gentner_individuation_2001; @loewenstein_relational_2005; @gentner_spatial_2013-1
 
-# `r advdate(tue, 5)` 
-
-### Education, literacy, language, and intelligence.
-
-* **Readings:** @cole_cross-cultural_2005; @stanovich_studying_1992; @ritchie_does_2015
-
-# `r advdate(tue, 6)` 
+# `r advdate(thurs, 6)` 
 
 ### Learning from generics
 
-(Please note the heavier reading load for this week)
+* **Readings:** @leslie_carving_2014; @hollander_generic_2009; @rhodes_cultural_2012; @horowitz_childrens_2016; 
 
-* **Readings:** @haward_development_2018; @hollander_generic_2009; @rhodes_cultural_2012; @horowitz_childrens_2016; @leslie_carving_2014
+# `r advdate(thurs, 7)` 
 
-# `r advdate(tue, 7)` 
+### Where do (word) meanings come from?
 
-### Language and and the reading of minds
+**Special guest** - Marianna Bolognesi
 
-* **Readings:** [@gagne_visible_2017; @samuel_is_2019; @heyes_cultural_2014]
+* **Readings:** @elman_alternative_2004; @bolognesi_where_2020 Chaps 8-9. (136-167); @lupyan_words-as-mappings_2017
 
-# `r advdate(tue, 8)` 
+# `r advdate(thurs, 8)` 
 
-### Distributional Semantics 1: Core Principles and controversies
+### Spring break
 
-* **Readings:** @elman_alternative_2004; @boleda_distributional_2020; @gunther_vector-space_2019; @bender_climbing_2020
+# `r advdate(thurs, 9)` 
 
-# `r advdate(tue, 9)` 
+### Distributional semantics: Links to psychological and linguistic theories
 
-### Distributional Semantics: Implications for learning
+* **Readings:** @gunther_vector-space_2019; boleda_distributional_2020
 
-* **Readings:** @lupyan_words-as-mappings_2017; @kim_knowledge_2019; @lewis_distributional_2019; @grand_semantic_2018; @lewis_gender_2020
+# `r advdate(thurs, 10)` 
 
-# `r advdate(tue, 10)` 
+### Distributional semantics: Implications for learning
 
-### Language and emotions
+* **Readings:** @grand_semantic_2018; @lewis_gender_2020; @kim_knowledge_2019; @lewis_distributional_2019; @bender_climbing_2020
 
-**Special guest** - Kristen Lindquist
+# `r advdate(thurs, 11)` 
 
-* **Readings:** [@doyle_language_2017; @lindquist_role_2015; @jackson_emotion_2019]
+### Language and the reading of minds
 
-# `r advdate(tue, 11)` 
+* **Readings:** @heyes_cultural_2014; @gagne_visible_2017; @kidd_reading_2013; @panero_does_2016; @kidd_panero_2017; @panero_no_2017-1
 
-### Perception 1: Top-down effects (of language) on perception
+(The readings include a failure to replicte Kidd and Castano, 2013 + Response + Response to the response. These are short)
 
-**Special guest** - Andy Clark
+# `r advdate(thurs, 12)` 
 
-* **Readings:** ; @lupyan_words_2015; @samaha_effects_2018; @lupyan_effects_nodate; 
+### Effects of language on perception
 
-# `r advdate(tue, 12)` 
+* **Readings:** @lupyan_words_2015; @lupyan_effects_2020; @lupyan_language_2013
 
-### Perception 2: Language and olfaction
+# `r advdate(thurs, 13)` 
 
-* **Readings:** @majid_differential_2018; @majid_odors_2014; @majid_olfactory_2018; @olofsson_human_2018; @majid_hunter-gatherer_2018
+### Inner Speech
 
-# `r advdate(tue, 13)` 
+* **Readings:** @alderson-day_inner_2015; @hurlburt_toward_2013; @emerson_role_2003
 
-### Writing workshop
+# `r advdate(thurs, 14)` 
 
-### Workshopping you group papers. Details TBA.
+### Conceptual Alignment
 
-# `r advdate(tue, 14)` 
+* **Readings:** @clark_communal_1998; @wang_idiosyncratic_2021; @marti_latent_2021
+
+# `r advdate(thurs, 15)` 
 
 ### Final presentations
 
-### Group paper presentations [17 min presentations + 10 min Q&A].
-
-
+### Group project presentations [20 min presentations + 10 min Q&A].
 
 
 \newpage
@@ -198,22 +197,8 @@ During the global COVID-19 pandemic, we must prioritize our collective health an
 
 # UW-MADISON [BADGER PLEDGE](https://smartrestart.wisc.edu/badgerpledge/)
 	
-# UW-MADISON [FACE COVERING GUIDELINES](https://d1cjb8q1w2lzm7.cloudfront.net/wp-content/uploads/sites/22/2020/06/Cloth-face-cover-guidance-06-22-20-final.pdf)
-While on campus all employees and students are required to wear [appropriate and properly fitting face coverings](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/how-to-wear-cloth-face-coverings.html) while present in any campus building unless working alone in a laboratory or office space. 
-
-## Face Coverings During In-person Instruction Statement (COVID-19)
-
-Individuals are expected to wear a face covering while inside any university building. Face coverings must be [worn correctly](https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/how-to-wear-cloth-face-coverings.html) (i.e., covering both your mouth and nose) in the building if you 	are attending class in person. If any student is unable to wear a face-covering, an 	accommodation may be provided due to disability, medical condition, or other legitimate reason.
-
-Students with disabilities or medical conditions who are unable to wear a face covering should contact the [McBurney Disability Resource Center](https://mcburney.wisc.edu/) or their Access Consultant if they are already 	affiliated. Students requesting an accommodation unrelated to disability or medical condition, 	should contact the Dean of Students Office.
-
-Students who choose not to wear a face covering may not attend in-person classes, unless they are approved for an accommodation or exemption. All other students not wearing a face covering will be asked to put one on or leave the classroom. Students who refuse to wear face coverings appropriately or adhere to other stated requirements will be reported to the [Office of Student Conduct and Community Standards](https://conduct.students.wisc.edu/) and will not be allowed to return to the classroom until they agree to comply with the face covering policy. An instructor may cancel or suspend a course in-person meeting if a person is in the classroom without an approved face covering in position over their nose and mouth and refuses to immediately comply.
-
-# QUARANTINE OR ISOLATION DUE TO COVID-19
-Student should continually monitor themselves for COVID-19 [symptoms](https://healthscreen.wisc.edu/) and get [tested](https://www.uhs.wisc.edu/medical/testing/) for the virus if they have symptoms or have been in close contact with someone with COVID-19. Student should reach out to instructors as soon as possible if they become ill or need to isolate or quarantine, in order to make alternate plans for how to proceed with the course. Students are strongly encouraged to communicate with their instructor concerning their illness and the anticipated extent of their absence from the course (either in-person or remote). The instructor will work with the student to provide alternative ways to complete the course work. 
 
 # COURSE EVALUATIONS
-Indicate how students can evaluate the course. For example:
 Students will be provided with an opportunity to evaluate this course and your learning experience. Student participation is an integral component of this course, and your feedback is important to me. I strongly encourage you to participate in the course evaluation.
 
 ## Digital Course Evaluation (AEFIS) 
@@ -227,32 +212,39 @@ ACADEMIC CALENDAR & RELIGIOUS OBSERVANCES
 
 # Ethics of Being a Student in the Department of Psychology
 
-The members of the faculty of the Department of Psychology at UW-Madison uphold the highest ethical standards of teaching and research. They expect their students to uphold the same standards of ethical conduct. By registering for this course, you are implicitly agreeing to conduct yourself with the utmost integrity throughout the semester. 
+The members of the faculty of the Department of Psychology at UW-Madison uphold the highest ethical standards of teaching and research.  They expect their students to uphold the same standards of ethical conduct. By registering for this course, you are implicitly agreeing to conduct yourself with the utmost integrity throughout the semester.  
 
-In the Department of Psychology, acts of academic misconduct are taken very seriously. Such acts diminish the educational experience for all involved – students who commit the acts, classmates who would never consider engaging in such behaviors, and instructors. Academic misconduct includes, but is not limited to, cheating on assignments and exams, stealing exams, sabotaging the work of classmates, submitting fraudulent data, plagiarizing the work of classmates or published and/or online sources, acquiring previously written papers and submitting them (altered or unaltered) for course assignments, collaborating with classmates when such collaboration is not authorized, and assisting fellow students in acts of misconduct. Students who have knowledge that classmates have engaged in academic misconduct should report this to the instructor.
+In the Department of Psychology, acts of academic misconduct are taken very seriously.  Such acts diminish the educational experience for all involved – students who commit the acts, classmates who would never consider engaging in such behaviors, and instructors.  Academic misconduct includes, but is not limited to, cheating on assignments and exams, stealing exams, sabotaging the work of classmates, submitting fraudulent data, plagiarizing the work of classmates or published and/or online sources, acquiring previously written papers and submitting them (altered or unaltered) for course assignments, collaborating with classmates when such collaboration is not authorized, and assisting fellow students in acts of misconduct.  Students who have knowledge that classmates have engaged in academic misconduct should report this to the instructor.
+
 
 # Academic Integrity
 
 By enrolling in this course, each student assumes the responsibilities of an active participant in UW-Madison’s community of scholars in which everyone’s academic work and behavior are held to the highest academic integrity standards. Academic misconduct compromises the integrity of the university. Cheating, fabrication, plagiarism, unauthorized collaboration, and helping others commit these acts are examples of academic misconduct, which can result in disciplinary action. This includes but is not limited to failure on the assignment/course, disciplinary probation, or suspension. Substantial or repeated cases of misconduct will be forwarded to the Office of Student Conduct & Community Standards for additional review. For more information, refer to studentconduct.wiscweb.wisc.edu/academic-integrity/.
 
 
-# Accommodations Policy:
+# Accommodations Policy
+
 *McBurney Disability Resource Center syllabus statement:* “The University of Wisconsin-Madison supports the right of all enrolled students to a full and equal educational opportunity. The Americans with Disabilities Act (ADA), Wisconsin State Statute (36.12), and UW-Madison policy (Faculty Document 1071) require that students with disabilities be reasonably accommodated in instruction and campus life. Reasonable accommodations for students with disabilities is a shared faculty and student responsibility. Students are expected to inform faculty [me] of their need for instructional accommodations by the end of the third week of the semester, or as soon as possible after a disability has been incurred or recognized. Faculty [I], will work either directly with the student [you] or in coordination with the McBurney Center to identify and provide reasonable instructional accommodations. Disability information, including instructional accommodations as part of a student's educational record, is confidential and protected under FERPA.” http://mcburney.wisc.edu/facstaffother/faculty/syllabus.php
 
 _UW-Madison students who have experienced sexual misconduct (which can include sexual harassment, sexual assault, dating violence and/or stalking) also have the right to request academic accommodations. This right is afforded them under Federal legislation (Title IX). Information about services and resources (including information about how to request accommodations) is available through Survivor Services, a part of University Health Services: https://www.uhs.wisc.edu/survivor-services/_
 
 # Diversity and Inclusion
+
 *Institutional statement on diversity:* “Diversity is a source of strength, creativity, and innovation for UW-Madison. We value the contributions of each person and respect the profound ways their identity, culture, background, experience, status, abilities, and opinion enrich the university community. We commit ourselves to the pursuit of excellence in teaching, research, outreach, and diversity as inextricably linked goals.
 
 The University of Wisconsin-Madison fulfills its public mission by creating a welcoming and inclusive community for people from every background – people who as students, faculty, and staff serve Wisconsin and the world.” https://diversity.wisc.edu/ 
 
 # Complaints
-Occasionally, a student may have a complaint about a TA or course instructor. If that happens, you should feel free to discuss the matter directly with the TA or instructor. If the complaint is about the TA and you do not feel comfortable discussing it with him or her, you should discuss it with the course instructor. Complaints about mistakes in grading should be resolved with the TA and/or instructor in the great majority of cases. If the complaint is about the instructor (other than ordinary grading questions) and you do not feel comfortable discussing it with him or her, make an appointment to speak to the Associate Chair for Graduate Studies, Professor Kristin Shutts, kshutts@wisc.edu.
 
-If your complaint concerns sexual harassment, you may also take your complaint to Dr. Linnea Burk, Clinical Associate Professor and Director, Psychology Research and Training Clinic, Room 315 Psychology (262-9079; burk@wisc.edu).
+Occasionally, a student may have a complaint about a TA or course instructor. If that happens, you should feel free to discuss the matter directly with the TA or instructor. If the complaint is about the TA and you do not feel comfortable discussing it with the individual, you should discuss it with the course instructor. Complaints about mistakes in grading should be resolved with the TA and/or instructor in the great majority of cases. If the complaint is about the instructor (other than ordinary grading questions) and you do not feel comfortable discussing it with the individual, make an appointment to speak to the Associate Chair for Graduate Studies, Professor Paula Niedenthal, niedenthal@wisc.edu.
 
 If you have concerns about climate or bias in this class, or if you wish to report an incident of bias or hate that has occurred in class, you may contact the Chair of the Department, Professor Craig Berridge (berridge@wisc.edu) or the Chair of the Psychology Department Climate & Diversity Committee, Professor Catherine Marler (catherine.marler@wisc.edu). You may also use the University’s bias incident reporting system, which you can reach at the following link: https://doso.students.wisc.edu/services/bias-reporting-process/. 
 
+# Concerns about Sexual Misconduct
+
+All students deserve to be safe and respected at UW-Madison. Unfortunately, we know that sexual and relationship violence do happen here. Free, confidential resources are available on and off campus for students impacted by sexual assault, sexual harassment, dating violence, and stalking (regardless of when the violence occurred). You don’t have to label your experience to seek help. Friends of survivors can reach out for support too. A list of resources can be found at https://www.uhs.wisc.edu/survivor-resources/
+
+If you wish to speak to someone in the Department of Psychology about your concerns, you may contact the Chair or any of the Associate Chairs (https://psych.wisc.edu/people/staff-2/). Please note that all of these individuals are Responsible Employees (https://compliance.wisc.edu/titleix/mandatory-reporting/#responsible-employees).
 
 
 \newpage
